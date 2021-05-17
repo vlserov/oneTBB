@@ -27,6 +27,7 @@
 
 /* Check which standard library we use. */
 #include <cstddef>
+#include "_export.h"
 
 #if _MSC_VER
     #define __TBB_EXPORTED_FUNC   __cdecl

@@ -15,6 +15,7 @@
 */
 
 #include "oneapi/tbb/detail/_utils.h"
+#include "oneapi/tbb/detail/_waitable_atomic.h"
 #include "governor.h"
 #include "concurrent_monitor.h"
 
