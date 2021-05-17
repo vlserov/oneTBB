@@ -74,7 +74,7 @@ public:
 
 #if __TBB_SUPPORTS_WORKERS_WAITING_IN_TERMINATE
 //! Exception for impossible finalization of task_sheduler_handle
-class unsafe_wait : public std::runtime_error {
+class TBB_EXPORT unsafe_wait : public std::runtime_error {
 public:
     unsafe_wait(const char* msg) : std::runtime_error(msg) {}
 };
