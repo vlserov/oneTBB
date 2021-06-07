@@ -1679,7 +1679,7 @@ void StressTestMixFunctionality() {
                     });
 
                     break;
-                }               
+                }
                 case enqueue_task :
                 {
                     tbb::spin_rw_mutex::scoped_lock lock{};
