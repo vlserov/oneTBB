@@ -420,6 +420,7 @@ tbb_add_test(SUBDIR tbb NAME test_eh_thread DEPENDENCIES TBB::tbb)
 tbb_add_test(SUBDIR tbb NAME test_global_control DEPENDENCIES TBB::tbb)
 tbb_add_test(SUBDIR tbb NAME test_task DEPENDENCIES TBB::tbb)
 tbb_add_test(SUBDIR tbb NAME test_concurrent_monitor DEPENDENCIES TBB::tbb)
+tbb_add_test(SUBDIR tbb NAME test_scheduler_mix DEPENDENCIES TBB::tbb)
 
 # HWLOC related test
 tbb_add_tbbbind_test(SUBDIR tbb NAME test_arena_constraints)
